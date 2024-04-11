@@ -7,6 +7,7 @@ import { RegisterPageComponent } from './pages/register-page/register-page.compo
 import { AuthLayoutComponent } from './layouts/auth-layout/auth-layout.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+import { RecaptchaModule } from 'ng-recaptcha';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { BrowserModule } from '@angular/platform-browser';
   imports: [
     CommonModule,
     AuthRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RecaptchaModule
   ]
 })
 export class AuthModule { }

@@ -8,8 +8,8 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 })
 export class HeaderComponent {
   public listRoutes = [
-    { path: '', name: 'inicio' },
-    { path: 'about', name: 'Quienes somos' },
+    { path: '', name: 'Inicio' },
+    { path: 'about', name: 'Quiénes somos' },
     { path: 'contact', name: 'Contáctanos' },
   ];
 }

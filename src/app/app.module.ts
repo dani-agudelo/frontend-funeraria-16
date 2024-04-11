@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './public-pages/components/footer/footer.component';
 import { HeaderComponent } from './public-pages/components/header/header.component';
 
+import { RecaptchaModule } from "ng-recaptcha";
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { HeaderComponent } from './public-pages/components/header/header.compone
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
