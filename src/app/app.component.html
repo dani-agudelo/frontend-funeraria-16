@@ -1,0 +1,9 @@
+<h1 *ngIf="!finishedAuthCheck()">Cargando...</h1>
+
+<app-header></app-header>
+
+<div class="min-w-full min-h-full pt-20 md:pt-16">
+    <router-outlet *ngIf="finishedAuthCheck()"></router-outlet>
+</div>
+
+<app-footer></app-footer>

@@ -1,0 +1,48 @@
+<section class="p-4 lg:p-8 dark:bg-gray-100 dark:text-gray-800">
+  <article class="mx-auto space-y-12">
+    <div class="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
+      <!-- <img src="../../../assets/img/vela.jpg" alt="" class="h-80 object-cover dark:bg-gray-500 aspect-video" /> -->
+      <div class="flex flex-col justify-center flex-1 p-6 dark:bg-gray-50">
+        <h3 class="text-3xl font-bold">Nuestra misión, visión y valores</h3>
+        <p class="my-6 dark:text-gray-600 text-base">
+          Nuestra misión es brindar apoyo integral a las familias en los momentos más difíciles, antes, durante y
+          después del fallecimiento de un ser querido. Nos ocupamos de todo con profesionalidad y rigor, permitiendo que
+          los allegados puedan elaborar su duelo en las mejores condiciones. Asistimos tanto a personas como a
+          instituciones, ofreciendo productos y servicios de alta calidad a través de cualificados profesionales con
+          vocación de servicio.
+
+          <br />
+          Aspiramos a ser la mejor compañía funeraria en Colombia. Buscamos lograr el mayor índice de satisfacción
+          por parte del cliente, brindando cercanía, calidez y eficiencia en cada servicio.
+        </p>
+      </div>
+    </div>
+  </article>
+  <article>
+    <div class="dark:bg-gray-100 dark:text-gray-800">
+      <div class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="mx-auto text-center max-w-full">
+          <h2 class="text-3xl font-extrabold sm:text-4xl">
+            Política integral y objectivos
+          </h2>
+          <p class="mt-5 text-lg dark:text-gray-600">
+            Basados en la mejora continua de los procesos que integran el sistema de gestión y el cumplimiento de los
+            requisitos legales, reglamentarios y otros aplicables, manifiesta su compromiso en el desarrollo de
+            estrategias organizacionales sostenibles para la prestación de
+            servicios funerarios y venta de planes de previsión exequial, asegurando
+          </p>
+        </div>
+        <dl
+          class="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-3 lg:gap-x-6">
+          
+          <div class="flex">
+            <i class="ri-check-line pt-2 text-[#7C3AED] text-lg"></i>
+            <div class="ml-3">
+              <dd *ngFor="let l of list" class="mt-2 dark:text-gray-600">{{l}}</dd>
+            </div>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </article>
+</section>

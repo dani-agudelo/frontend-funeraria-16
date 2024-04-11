@@ -1,0 +1,35 @@
+<div
+  class="opacity-100 pointer-events-auto w-full h-full bg-[hsla(230,_75%,_15%,_.1)] backdrop-filter backdrop-blur-xl pt-32 px-6 pb-4  [transition:opacity_.4s]">
+  <form
+    class="grid pt-8 mb-8 px-6 pb-10 [box-shadow:0_8px_32px_hsla(230,_75%,_15%,_.2)] rounded-2xl gap-y-5 text-center translate-y-[0] [transition:transform_.4s]">
+    <h2 class="text-xl text-[#0a1343]">Log In</h2>
+
+    <div class="grid gap-y-4">
+      <div>
+        <label for="email" class="block [text-align:initial] font-[#0a1343] mb-[.25rem]">Email</label>
+        <input type="email" placeholder="Write your email" id="email"
+          class="w-full bg-white border-[2px_solid_#bfc4d9] p-4 rounded-[.5rem] text-[#5a5e72]">
+      </div>
+
+      <div>
+        <label for="password" class="block [text-align:initial] font-[#0a1343] mb-[.25rem]">Password</label>
+        <input type="password" placeholder="Enter your password" id="password"
+          class="w-full bg-white border-[2px_solid_#bfc4d9] p-4 rounded-[.5rem] text-[#5a5e72]">
+      </div>
+    </div>
+
+    <!-- <re-captcha (resolved)="resolved($event)" siteKey="YOUR_SITE_KEY"></re-captcha> -->
+
+    <div>
+      <p class="mb-2">
+        You do not have an account? <a class="no-underline text-[#3b57e3]">Sign up</a>
+      </p>
+      <a href="#" class="no-underline inline-block text-[#3b57e3] mb-5"> You forgot your password </a>
+
+      <button
+        class="border-none outline-none inline-block w-full bg-[#3b57e3] text-[#fff] font-semibold p-4 rounded-[.5rem] cursor-pointer [transition:box-shadow_.4s]"
+        type="submit">Log In</button>
+    </div>
+  </form>
+
+</div>
